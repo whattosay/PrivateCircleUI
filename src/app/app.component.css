@@ -1,0 +1,139 @@
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+    overflow-x: auto;
+    right: 40px;
+    width: 100%;
+}
+
+th,
+td {
+    text-align: left;
+    padding: 16px;
+}
+
+
+/* 
+/* .navbar {
+    flex: 1;
+    margin: auto !important;
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-inline {
+    float: right;
+} */
+
+.navbar-brand {
+    background-color: rgb(3, 28, 65);
+    color: white;
+    font-size: medium;
+}
+
+.content {
+    position: absolute;
+    width: 440px;
+    right: 3px;
+    left: 100;
+    top: auto;
+    margin: 0px;
+    padding: 0;
+}
+
+.hoverable-button {
+    background-color: #fefafa;
+    color: rgb(0, 0, 0);
+    transition: background-color 0.3s ease;
+}
+
+.hoverable-button:hover {
+    background-color: #b1acac;
+}
+
+.fa {
+    color: #dddbdb;
+}
+
+.detail:hover {
+    background-color: #fffefe;
+    text-decoration: underline;
+}
+
+.hoverable-button:active {
+    background-color: #f9f9f9;
+}
+
+button {
+    margin-right: 1vw;
+    color: #000000;
+    font-size: 16px;
+    line-height: 18px;
+    margin-top: 4%;
+    height: auto;
+    width: auto;
+}
+
+*/
+/* Set the background color of the navbar */
+
+
+/* Style the input group */
+
+.navbar .input-group {
+    width: 100%;
+    max-width: 400px;
+}
+
+
+/* Style the search box input field */
+
+.navbar .form-control {
+    border-radius: 0;
+    border-color: #cccccc;
+}
+
+
+/* Style the search button */
+
+.navbar .btn-outline-success {
+    border-color: #28a745;
+    color: #28a745;
+}
+
+
+/* Change the hover color of the search button */
+
+.navbar .btn-outline-success:hover {
+    background-color: #28a745;
+    color: #ffffff;
+}
+
+
+/* Adjust the padding of the input group append div */
+
+.navbar .input-group-append {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.detail-container {
+    width: 0%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    overflow: hidden;
+    transition: width 0.5s;
+}
+
+.detail-container.show {
+    width: 25%;
+}
+
+.detail-container textarea {
+    width: 100%;
+    height: 100%;
+}
